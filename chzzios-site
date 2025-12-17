@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHZZIOS</title>
+<style>
+body {
+  background:#0e0e0e;
+  font-family:-apple-system;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  margin:0;
+}
+.box {
+  width:300px;
+  background:linear-gradient(180deg,#8b0000,#2b0000);
+  border-radius:16px;
+  padding:16px;
+  color:white;
+}
+h1 {
+  text-align:center;
+  color:#ff4d4d;
+}
+.section {
+  background:#6a0000;
+  padding:8px;
+  border-radius:8px;
+  margin-top:10px;
+  font-weight:bold;
+}
+.item {
+  display:flex;
+  justify-content:space-between;
+  margin:8px 0;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+  <h1>@CHZZIOS</h1>
+
+  <div class="section">Sistema Avançado</div>
+  <div class="item"><span>120 FPS</span><input type="checkbox"></div>
+  <div class="item"><span>No Recoil</span><input type="checkbox"></div>
+
+  <div class="section">Ajustes de Mira</div>
+  <div class="item"><span>Aimbot 90%</span><input type="checkbox"></div>
+  <div class="item"><span>Head Trick</span><input type="checkbox"></div>
+  <div class="item"><span>Neural Aim</span><input type="checkbox"></div>
+</div>
+
+</body>
+</html>
